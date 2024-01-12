@@ -1,0 +1,45 @@
+.news_container {
+  background-color: #F0ECE8;
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-bottom: 180px;
+}
+
+.news_title {
+  color: black;
+  font-size: 32px;
+}
+
+.news_items_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_items_container p {
+  line-height: 160%;
+}
+
+.news_date {
+  margin-top: 8px;
+}
+
+.news_image {
+  background-size: 100%;
+  background-position: 0% 50%;
+  height: 280px;
+  width: 360px;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.news_image_1 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/interior_green-強化-SR.jpg');
+}
+
+.news_image_2 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/interior_design-強化-SR.jpg');
+}
+
+.news_image_3 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/eco_interior-強化-SR.jpg');
+}

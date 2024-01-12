@@ -1,0 +1,107 @@
+.about_container {
+  background-color: #A0A0A0;
+  padding-bottom: 260px; 
+}
+
+.about_title {
+  color: black;
+  font-size: 32px;
+  margin-left: 140px;
+}
+
+.about_items_container {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+.about {
+  position: relative;
+}
+
+.about1 {
+  margin-left: 140px;
+}
+
+.about2 {
+  margin-right: 140px;
+}
+
+.about_image {
+  background-size: 100%;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.about_image_1 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/scene1-強化-SR.jpg');
+  background-position: 0% 50%;
+  height: 600px;
+  width: 530px;
+  box-shadow: 8px 5px 5px #585858;
+}
+
+.about_image_2 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/conpany_attempt-強化-SR.jpg');
+  background-position: 0% 50%;
+  height: 600px;
+  width: 530px;
+  box-shadow: 8px 5px 5px #585858;
+}
+
+.about1_h3 {
+  position: absolute;
+  top: 200px;
+  left: 210px;
+  height: 36px;
+  width: auto;
+  color: #fff;
+  font-size: 24px;
+}
+
+.about2_h3 {
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  height: 36px;
+  width: auto;
+  color: #fff;
+  font-size: 24px;
+}
+
+.conpany_info {
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  background-color: #fff;
+  height: 270px;
+  width: 490px;
+  padding: 4px 16px;
+  margin-bottom: 80px;
+  box-shadow: 8px 5px 5px #585858;
+}
+
+.conpany_info p {
+  line-height: 160%;
+  margin: auto;
+  align-items: center;
+}
+
+.conpany_attempt {
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  background-color: #fff;
+  height: 270px;
+  width: 490px;
+  padding: 4px 16px;
+  box-shadow: 8px 5px 5px #585858;
+}
+
+.conpany_attempt p {
+  line-height: 160%;
+  margin: auto;
+  align-items: center;
+}

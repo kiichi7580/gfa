@@ -1,0 +1,227 @@
+/* ナビゲーションの高さ調節 */
+#news, #product, #sofa, #table, #bed, #cabinet, #chair, #accessories, #curtain, #scene, #about, #footer {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h2,
+h3,
+h5,
+p,
+ul {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #FFFBF8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.logo_image {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/logo.png');
+  background-size: 100%;
+  background-position: 0% 50%;
+  object-fit: cover;
+  object-position: 100% 100%;
+  width: 200px;
+  height: 100px;
+  float: left;
+  z-index: 998;
+}
+
+.header_nav {
+  height: 100px;
+  width: 1200px;
+  line-height: 100px;
+  float: right;
+  z-index: 998;
+}
+
+.nav_items {
+  display: flex;
+}
+
+.nav_items_item {
+  flex-direction: row-reverse;
+  color: black;
+  font-size: 24px;
+  margin-left: 64px;
+}
+
+.shop_cart_image {
+  height: 50px;
+  width: 60px;
+}
+
+/* .online_shop {
+  width: 200px;
+} */
+
+/* メイン */
+main {
+  background-color: #ffffff;
+  height: auto;
+  width: 100%;
+  /* margin-top: 100px; */
+}
+
+.main_visual {
+  height: 1160px;
+  background-color: #FFFBF8;
+  margin-top: 100px;
+}
+
+.main_visual_image img {
+  height: auto;
+  width: 100%;
+}
+
+.titile_container {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+}
+
+.titile {
+  font-size: 32px;
+  /* font-family: "Brandon Grotesque", sans-serif; */
+}
+
+.more_button1 button {
+  display: block;
+  margin: auto;
+  margin-top: 64px;
+  height: 55px;
+  width: 240px;
+  border: none;
+  border-radius: 8px;
+  background: #6F6152;
+  color: #F0ECE8;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+}
+
+.more_button2 button {
+  display: block;
+  margin: auto;
+  margin-top: 64px;
+  height: 55px;
+  width: 240px;
+  border: none;
+  border-radius: 8px;
+  background: #6F6152;
+  color: #F0ECE8;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+}
+
+.footer_container {
+  height: 600px;
+  padding-right: 140px;
+  padding-left: 140px;
+  background-color: #CFCED2;
+  padding-top: 40px;
+  padding-top: 30px;
+}
+
+.footer_content {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-around;
+  height: 600px;
+}
+
+.official_sns {
+  height: 300px;
+  width: 400px;
+}
+
+.official_sns p {
+  font-size: 24px;
+}
+
+.sns_logos {
+  margin-left: 12px;
+}
+
+.sns_logos img {
+  height: 60px;
+  width: 60px;
+  margin: 32px 24px;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px #585858;
+}
+
+.footer_logo {
+  margin-right: 130px;
+}
+
+.footer_nav {
+  height: 500px;
+  width: 650px;
+  border: 1px solid #585858;
+}
+
+.footer_nav_items {
+  float: left;
+  margin-top: 32px;
+}
+
+.footer_nav_items li {
+  font-size: 24px;
+  margin-bottom: 16px;
+  text-decoration: underline;
+}
+
+.product_nav_main_item {
+  float: left;
+  margin-right: 24px;
+}
+
+.product_nav_sub_item {
+  float: left;
+  margin-right: 24px;
+}
+
+.site_neccessary_items p {
+  font-size: 15px;
+  margin-left: 48px;
+  float: left;
+}
+
+.copy_write_container {
+  height: 100;
+  line-height: 100px;
+  background-color: #585858;
+  text-align: center;
+}
+
+.copy_write_container p {
+  font-size: 15px;
+  color: #ffffff;
+}

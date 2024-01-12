@@ -1,0 +1,59 @@
+.scene_container {
+  background-color: #707070;
+  padding-left: 0px;
+  padding-bottom: 180px;
+}
+
+.scene_title {
+  color: white;
+  font-size: 32px;
+  padding-left: 140px;
+}
+
+.scene_items_container {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  background-color: #fff;
+  padding-left: 140px;
+}
+
+.scene1 {
+  padding: 64px 0;
+}
+
+.scene_explanation h2 {
+  font-size: 24px;
+}
+
+.scene_explanation p {
+  line-height: 180%;
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+.scene_explanation a {
+  font-size: 15px;
+  float: right;
+}
+
+.scene_image {
+  background-size: 100%;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.scene_image_1 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/scene2sub2-強化-SR.jpg');
+  background-position: 0% 70%;
+  height: 240px;
+  width: 360px;
+  margin-top: 72px;
+}
+
+.scene_image_2 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/scene2-強化-SR.jpg');
+  background-position: 0% 50%;
+  height: 600px;
+  width: 900px;
+}

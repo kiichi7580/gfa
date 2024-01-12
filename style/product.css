@@ -1,0 +1,112 @@
+.product_container {
+  background-color: #ffffff;
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-bottom: 80px;
+}
+
+.product_title {
+  color: black;
+  font-size: 32px;
+}
+
+.product_main {
+  display: flex;
+  flex-flow: wrap column;
+  height: 1048px;
+}
+
+.product {
+  position: relative;
+  margin-bottom: 64px;
+}
+
+.product_item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  height: 36px;
+  width: auto;
+}
+
+.product_item p {
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+.product_image_main {
+  background-size: 100%;
+  background-position: 0% 60%;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.product_image_sub {
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.product_image_1 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/sofa-強化-SR.jpg');
+  height: 420px;
+  width: 540px;
+  box-shadow: 10px 5px 5px #585858;
+}
+
+.product_image_2 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/bed-強化-SR.jpg');
+  height: 500px;
+  width: 540px;
+  box-shadow: 10px 5px 5px #585858;
+}
+
+.product_image_3 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/table2-強化-SR.jpg');
+  height: 500px;
+  width: 540px;
+  box-shadow: 10px 5px 5px #585858;
+}
+
+.product_image_4 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/cabinet-強化-SR.jpg');
+  height: 420px;
+  width: 540px;
+  box-shadow: 10px 5px 5px #585858;
+}
+
+.product_sub {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.product_image_5 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/chair-強化-SR.jpg');
+  height: 380px;
+  width: 360px;
+  background-size: 120%;
+  background-position: 0% 60%;
+  box-shadow: 10px 5px 5px #585858;
+}
+
+.product_image_6 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/cushion-強化-SR.jpg');
+  height: 380px;
+  width: 360px;
+  background-size: 110%;
+  background-position: 30% 60%;
+  box-shadow: 10px 5px 5px #585858;
+}
+
+.product_image_7 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/curtain-強化-SR.jpg');
+  height: 380px;
+  width: 360px;
+  background-size: 165%;
+  background-position: 50% 60%;
+  box-shadow: 8px 5px 5px #585858;
+}
+

@@ -1,0 +1,68 @@
+.popular_furniture_container {
+  background-color: #A0A0A0;
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-bottom: 180px;
+}
+
+.popular_furniture_title {
+  color: white;
+  font-size: 32px;
+}
+
+.popular_furniture_items_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.popular_furniture2 {
+  align-self: center;
+}
+
+.popular_furniture3 {
+  align-self: flex-start;
+}
+
+.popular_furniture3_1 {
+  margin-bottom: 120px;
+}
+
+.popular_furniture_image {
+  /* margin-left: 20px; */
+  background-size: 100%;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.popular_furniture_image_1 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/popular_furniture1-強化-SR.jpg');
+  background-position: 0% 50%;
+  height: 600px;
+  width: 520px;
+  box-shadow: 8px 5px 5px #585858;
+}
+
+.popular_furniture_image_2 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/table-強化-SR.jpg');
+  background-position: 0% 70%;
+  height: 240px;
+  width: 300px;
+  box-shadow: 8px 5px 5px #585858;
+}
+
+.popular_furniture_image_3 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/popular_furniture3-強化-SR.jpg');
+  background-position: 0% 50%;
+  height: 240px;
+  width: 300px;
+  box-shadow: 8px 5px 5px #585858;
+}
+.popular_furniture_image_4 {
+  background-image: url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/popular_furniture2-強化-SR.jpg');
+  background-position: 0% 70%;
+  height: 240px;
+  width: 300px;
+  box-shadow: 8px 5px 5px #585858;
+}
