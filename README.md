@@ -4,10 +4,12 @@
 
 ## サイトのテーマ  
 
-#### テーマ：インテリア紹介サイト
 <div style="float: right; margin: 0 10px 10px 5px;">
   <img src="/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/logo.png" width="180" height="150">
 </div>
+
+#### テーマ：インテリア紹介サイト
+
 
 #### 仮想ブランド名：ナチュラルハーモニー(Natural Harmony)
 #### コンセプト：
@@ -18,6 +20,7 @@
 →インテリアを考えている人向け <br>
 →新鮮な暮し、キレイなお家に住みたい人向け <br>
 
+<br>
 <br>
 <br>
 <br>
@@ -39,6 +42,7 @@
 <br>
 <br>
 <br>
+<br>
 
 ## こだわったところ(部分的に)
 
@@ -51,6 +55,7 @@
   - 背景色で目立させたい部分を強調した（Sceneの部分など）
   - 商品画像に影をつけ印象づくようにした
 
+<br>
 <br>
 <br>
 <br>
@@ -68,8 +73,11 @@
 <br>
 <br>
 <br>
+<br>
 
 ***
 ### デザインリンク
 
 #### XDのリンク: [こちらを参照してください](https://xd.adobe.com/view/b5b0b624-39bb-4db7-b28f-5efc4bb3dc98-e0e3/)
+
+<br>
