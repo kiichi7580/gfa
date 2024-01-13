@@ -22,6 +22,15 @@ ul {
   margin: 0;
 }
 
+.Japanese_sentence
+{
+  font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+}
+
+.European_language {
+  font-family: "Optima", Helvetica, Arial, sans-serif;
+}
+
 header {
   height: 100px;
   width: 100%;
@@ -57,6 +66,8 @@ header {
 
 .nav_items {
   display: flex;
+  margin-right: 0;
+  margin-left: 120px;
 }
 
 .nav_items_item {
@@ -80,18 +91,14 @@ main {
   background-color: #ffffff;
   height: auto;
   width: 100%;
-  /* margin-top: 100px; */
 }
 
 .main_visual {
-  height: 1160px;
   background-color: #FFFBF8;
-  margin-top: 100px;
 }
 
-.main_visual_image img {
-  height: auto;
-  width: 100%;
+.main_visual ul {
+  padding-left: 0;
 }
 
 .titile_container {
@@ -105,34 +112,58 @@ main {
   /* font-family: "Brandon Grotesque", sans-serif; */
 }
 
-.more_button1 button {
-  display: block;
+.more_button1 a {
+  border: 3px solid #F0ECE8;
+  outline: 5px solid #6F6152;
   margin: auto;
   margin-top: 64px;
   height: 55px;
   width: 240px;
-  border: none;
+  line-height: 55px;
   border-radius: 8px;
-  background: #6F6152;
-  color: #F0ECE8;
-  padding: 8px 16px;
+  background-color: #6F6152;
   font-size: 15px;
   font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+  color: #F0ECE8;
+  display: block;
+  font-weight: 500;
+  text-align: center;
+  transition: .3s;
 }
 
-.more_button2 button {
-  display: block;
+.more_button1:hover a {
+  background-color: #F0ECE8;
+  color: #6F6152;
+  border: 3px solid #6F6152;
+  outline: 3px solid #6F6152;
+}
+
+.more_button2 a {
+  border: 3px solid #6F6152;
+  outline: 5px solid #F0ECE8;
   margin: auto;
   margin-top: 64px;
   height: 55px;
   width: 240px;
-  border: none;
+  line-height: 55px;
   border-radius: 8px;
-  background: #6F6152;
-  color: #F0ECE8;
-  padding: 8px 16px;
+  background-color: #F0ECE8;
   font-size: 15px;
   font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+  color: #6F6152;
+  display: block;
+  font-weight: 500;
+  text-align: center;
+  transition: .3s;
+}
+
+.more_button2:hover a {
+  background-color: #6F6152;
+  color: #F0ECE8;
+  border: 3px solid #F0ECE8;
+  outline: 3px solid #F0ECE8;
 }
 
 footer {
