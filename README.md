@@ -5,7 +5,7 @@
 ## サイトのテーマ  
 
 <div style="float: right; margin: 0 10px 10px 5px;">
-  <img src="/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/logo.png" width="180" height="150">
+  <img src="./images/logo.png" width="180" height="150">
 </div>
 
 #### テーマ：インテリア紹介サイト
