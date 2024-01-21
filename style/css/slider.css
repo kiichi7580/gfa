@@ -1,5 +1,5 @@
 .slider {
-  position:relative;
+    position: relative;
 	z-index: 1;
 	/*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
 	height: 100vh;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
@@ -7,15 +7,15 @@
 /*　背景画像設定　*/
 
 .slider-item01 {
-    background:url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/mainvisual_Image Enhancer-強化-SR.jpg');
+    background:url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/mainvisual1_new.jpg');
 }
 
 .slider-item02 {
-    background:url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/mainvisual2-強化-SR.jpg');
+    background:url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/maivisual2_new.jpg');
 }
 
 .slider-item03 {
-    background:url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/mainvisual3-強化-SR.jpg');
+    background:url('/Users/nakasatokiichi/Desktop/WEBデザイン/冬休み課題/images/mainvisual3_new.jpg');
 }
 
 .slider-item {
@@ -56,7 +56,7 @@
 .slick-dots {
 	position: relative;
 	z-index: 3;
-    text-align:center;
+    text-align: center;
 	margin:-50px 0 0 0;/*ドットの位置*/
 }
 
@@ -68,9 +68,9 @@
 .slick-dots button {
     color: transparent;
     outline: none;
-    width:8px;/*ドットボタンのサイズ*/
-    height:8px;/*ドットボタンのサイズ*/
-    display:block;
+    width: 15px;/*ドットボタンのサイズ*/
+    height: 15px;/*ドットボタンのサイズ*/
+    display: block;
     border-radius:50%;
     background:#fff;/*ドットボタンの色*/
 }
